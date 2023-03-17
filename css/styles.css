@@ -68,6 +68,9 @@ body {
 .adress-link:hover {
     color: #404bbf;
 }
+.adress-link:focus {
+    color: #404bbf;
+}
 /**-----------------------HERO---------------------*/
 .hero {
     background: #2E2F42;
