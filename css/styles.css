@@ -198,6 +198,9 @@ body {
     color: #F4F4FD;
 }
 /**--------------------PORTFOLIO------------*/
+.invis-title {
+    visibility: hidden;    
+}
 .filter-button {
     font-family: inherit;
     background: #F4F4FD;
