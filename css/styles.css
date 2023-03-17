@@ -1,6 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
+    color: #434455;
+    background-color: var(--often-color);
+    
 }
 .list {
     list-style: none;
@@ -8,35 +11,47 @@ body {
 .link {
     text-decoration: none;
 }
+:root {
+    --often-color: #FFFFFF;
+    --web-color: #4D5AE5;
+    --studio-color: #2E2F42;
+}
 /**----------------------HEADER-------------------*/
 .header {
-    background: #FFFFFF;
+    background: var(--background-color);
 }
 .header-logo span {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;    
+    color: var(--studio-color);    
 }      
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--web-color);
 }
 .header-list {
 }
 .header-link {
-    font-weight: 500;
+    line-height: 1.5;
     font-size: 16px;
-    line-height: 1,5;
+    font-weight: 500;
     color: #2E2F42;
+
+}
+.header-link:hover {
+    color: #404bbf;
+}
+.header-link:focus {
+    color: #404bbf;
 }
 .header-item {
     
@@ -58,22 +73,31 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: #FFFFFF;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--often-color);
 }
 .hero-button {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-            
+    color: var(--often-color);
+    cursor: pointer;           
+}
+.hero-button:hover {
+    background-color: #404BBF;
+}
+.hero-button:focus {
+    background-color: #404BBF;
 }
 /**----------------------PLUSES----------------*/
 
-.pluses {}
+.pluses {
+
+}
 
 .pluses-list {}
 
@@ -82,7 +106,8 @@ body {
 .pluses-title {   
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;  
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -101,6 +126,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
     color: #2E2F42;
 }
 
@@ -118,13 +144,15 @@ body {
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
      color: #2E2F42;
 }
 
 .team-list {}
 
 .team-item {
-    background: #FFFFFF;
+    background: var(--often-color);
 }
 
 .team-card {
@@ -145,22 +173,22 @@ body {
     background: #2E2F42;
 }
 .footer-logo span {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1, 17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-.footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #f4f4fd;
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--web-color);
 }
 .bottom-text {
     font-weight: 400;
@@ -182,19 +210,19 @@ body {
 }
 .filter-button:hover {
     background: #404BBF;
-    color: #FFFFFF;
+    color: var(--often-color);
 }
 .filter-button:focus {
     background: #404BBF;
-    color: #FFFFFF;
+    color: var(--often-color);
 }
 /**--------------------SECTION---------------*/
 .app-list {
-    background: #FFFFFF;
+    background: var(--often-color);
 }
 .marketing-list {
-    background: #FFFFFF;
+    background: var(--often-color);
 }
 .web-list {
-    background: #FFFFFF;
+    background: var(--often-color);
 }
