@@ -63,7 +63,10 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-     color: #434455;
+    color: #434455;
+}
+.adress-link:hover {
+    color: #404bbf;
 }
 /**-----------------------HERO---------------------*/
 .hero {
@@ -127,6 +130,7 @@ body {
     line-height: 1.11;
     text-transform: capitalize;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
@@ -146,7 +150,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
-     color: #2E2F42;
+    color: #2E2F42;
 }
 
 .team-list {}
@@ -159,6 +163,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .team-text {
@@ -219,13 +224,7 @@ body {
     background: #404BBF;
     color: var(--often-color);
 }
-/**--------------------SECTION---------------*/
-.app-list {
-    background: var(--often-color);
+.direct-title {
+    
 }
-.marketing-list {
-    background: var(--often-color);
-}
-.web-list {
-    background: var(--often-color);
-}
+
